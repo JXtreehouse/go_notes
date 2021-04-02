@@ -1,11 +1,18 @@
 <!--
  * @Author: your name
  * @Date: 2021-04-02 16:43:17
- * @LastEditTime: 2021-04-02 16:48:53
+ * @LastEditTime: 2021-04-02 16:58:58
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /go_notes/docs/常用开发工具.md
 -->
+# 在线小工具
+开发中使用到的小工具
+
+JSON在线解析 http://json.cn/
+
+# 安装工具
+生成二维码 https://cli.im/text
 ![](./../assets/devtool.png)
 ![](./../assets/devtool2.png)
 ![](./../assets/devtool3.png)
