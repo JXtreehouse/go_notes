@@ -1,0 +1,4 @@
+d5eb8ae538e8378f896476f589f2ad2539c2081e		branch 'appveyor' of https://github.com/rpcx-ecosystem/quic-conn
+f542f99ccd8227a3215c43ddb1bd0fa26ae44ad1		branch 'circle' of https://github.com/rpcx-ecosystem/quic-conn
+e8320ca0c034e2cd6e5e58b1b756176cc7b4ae5c		branch 'master' of https://github.com/rpcx-ecosystem/quic-conn
+ac9b86864002a2e38fc2a8ddfdc9ba1d5a53b07d		branch 'travis-race-detector' of https://github.com/rpcx-ecosystem/quic-conn

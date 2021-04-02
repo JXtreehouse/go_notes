@@ -1,0 +1,8 @@
+37c69a26f6a2fb56c2caa506b292802203a90042		branch 'master' of https://github.com/gomodule/redigo
+4db57703d7ddf9d96affaec4be211a6dbc6a96fd		branch 'mod2' of https://github.com/gomodule/redigo
+2f7a3dc4b7197a92a695b68f6e0d70d29fd701ba		branch 'nil' of https://github.com/gomodule/redigo
+8c476e649d18575271e0c8de969252947068b2d4		branch 'nil2' of https://github.com/gomodule/redigo
+c44da320425eb066e667474aefac93eb0763cf82		branch 'string' of https://github.com/gomodule/redigo
+d2b81f577f5728e630f85365a4c32e1f29d48893		branch 'stringlen' of https://github.com/gomodule/redigo
+02dc2736dbc3a4a56907b0d5a9fead2f71b499db		tag 'v1.7.0' of https://github.com/gomodule/redigo
+9c11da706d9b7902c6da69c592f75637793fe121		tag 'v2.0.0' of https://github.com/gomodule/redigo

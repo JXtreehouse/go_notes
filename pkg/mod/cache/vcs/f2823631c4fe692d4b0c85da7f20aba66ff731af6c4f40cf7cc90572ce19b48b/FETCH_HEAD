@@ -1,0 +1,3 @@
+39be9370ab30ef576cb4693650ec81e0341b3ce8		branch 'error-on-connect-fail' of https://github.com/samuel/go-zookeeper
+4877e0b5cfb4e3d569a32bad5dfa781eccfdf1f0		branch 'go-1-13-support' of https://github.com/samuel/go-zookeeper
+2cc03de413da42869e2db7ce7965d3e978d917eb		branch 'master' of https://github.com/samuel/go-zookeeper
