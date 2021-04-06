@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-04-02 16:43:17
- * @LastEditTime: 2021-04-02 16:58:58
+ * @LastEditTime: 2021-04-02 18:30:25
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /go_notes/docs/常用开发工具.md
@@ -11,8 +11,32 @@
 
 JSON在线解析 http://json.cn/
 
-# 安装工具
 生成二维码 https://cli.im/text
+
+
+
+# 安装工具
+
+## PlantUML画图
+
+```
+安装步骤
+
+sudo apt-get install graphviz
+
+sudo apt-get install graphviz graphviz-doc
+```
+
+安装plantUML插件
+
+Ctrl+Shift+X  快捷键打开拓展安装界面，输入  PlantUML  安装插件
+![](./../assets/plantuml.png)
+
+![](./../assets/创建.puml%20文件.png)
+
+创建.puml 文件即可生成UML图  (ALT+D UML图预览) 
+#其他推荐
+
 ![](./../assets/devtool.png)
 ![](./../assets/devtool2.png)
 ![](./../assets/devtool3.png)
