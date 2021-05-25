@@ -1,12 +1,13 @@
+#! https://zhuanlan.zhihu.com/p/367756031
 <!--
  * @Author: your name
  * @Date: 2021-04-02 18:04:16
- * @LastEditTime: 2021-04-02 18:19:25
+ * @LastEditTime: 2021-04-25 17:58:58
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /go_notes/docs/GVM管理Go版本.md
 -->
-
+<b>GVM管理golang版本</b>
 # GVM介绍
 在 Go 项目开发中，团队要保持开发版本一致，怎么能够快速的安装及部署并且切换 Go 环境，在这里推荐一款工具 GVM （ Go Version Manager ），它可以便捷切换与自定义 Go Path 、Go Root 等参数，是一款实打实的多版本安装及管理利器。
 
