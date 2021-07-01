@@ -6,7 +6,7 @@
  * @Description: In User Settings Edit
  * @FilePath: /go_notes/base/golang_channel.go
  */
- package main
+ package base
 
  import "fmt"
  

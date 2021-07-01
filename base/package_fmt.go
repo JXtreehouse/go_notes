@@ -6,7 +6,7 @@
  * @Description: In User Settings Edit
  * @FilePath: /go_notes/base/package_fmt_%v_%T.go
  */
-package main
+package base
 
 import (
 	"fmt"
