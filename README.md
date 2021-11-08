@@ -1,15 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-22 16:36:14
- * @LastEditTime: 2021-07-01 15:52:32
+ * @LastEditTime: 2021-09-27 17:53:51
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit　https://www.cnblogs.com/xiaoyuanqujing/p/11681169.html
  * @FilePath: /go_notes/README.md
 -->
 # go_notes
-go practise for learning
-
-
+go practise for lea
 
 
 
