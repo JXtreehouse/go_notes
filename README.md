@@ -1,13 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-22 16:36:14
- * @LastEditTime: 2021-09-27 17:53:51
+ * @LastEditTime: 2021-11-11 11:46:13
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit　https://www.cnblogs.com/xiaoyuanqujing/p/11681169.html
  * @FilePath: /go_notes/README.md
 -->
 # go_notes
-go practise for lea
+go practise for youziclub
 
 
 
@@ -40,11 +40,17 @@ go practise for lea
 - Goroutine
 - channel(信道)
 - time包中与channel相关的函数
- - sync包
-   - 同步等待组
-   - 互斥锁
-   - 读写互斥锁
-   - 条件变量
+- sync包
+  - 同步等待组
+  - 互斥锁
+  - 读写互斥锁
+  - 条件变量
+
+# 网络模型(IO)
+
+- 并发网络模型(reactor模型)
+- gnet
+- evio
 
  # Golang 进阶
 
@@ -91,7 +97,25 @@ go practise for lea
 - 内存管理
 - GC垃圾回收
 - timer
+- go编译器
 
+# 存储引擎 
+- b+ tree (InnoDB、BoltDB、BuntDB)
+- lsm tree (bitcask、moss、leveldb)
+- boltdb
+- buntdb
+- moss
+- bitcask
+- pebble
+- leveldb
+
+# 分布式共识算法
+- etcd的raft模块实现
+
+# 推荐系统
+- 上下游链路
+- 核心流程
+- Feeds流设计方案(读扩散，写扩散，读写结合等)
 
 # 常用工具
 - [mysql建表语句转golang struct](https://marketplace.visualstudio.com/items?itemName=wandecilenio-martins.ddl-2-go-struct)
@@ -102,7 +126,9 @@ go practise for lea
 
 - yaml转golang struct
 
-# 常用官方包
+# 常用官方包(标准库)
+
+Go的标准库中有100多个包用来完成输入、输出、排序、文本处理等常规任务操作。
 
 - fmt    -    实现格式化的输入输出操作，其中的fmt.Printf()和fmt.Println()是开发者使用最为频繁的函数。  
 
