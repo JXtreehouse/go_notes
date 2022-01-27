@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6808e125-ebc3-4fd0-8a8f-c10ce3f35a9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/store&amp;search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/regular-expressions.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/lsm树存储引擎(bitcask、moss、leveldb).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Go实现压力测试工具.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/goland配置gomodules.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/use_gopath_in_goland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Goland IDE注册和使用.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/go path.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/go path.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/go 函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/go 函数.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/go 协程.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/go实现分布式ID生成器.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/go实现分布式ID生成器.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
