@@ -8,7 +8,8 @@
 -->
 
 - realtime-chat-go-react
-
+# Go社区推荐的目录结构(官方未进行认可)
+[golang-standards / project-layout](https://github.com/golang-standards/project-layout)
 # 参考项目
 [gin+gorm+editor-md实现的个人博客系统](https://github.com/dzhenquan/golangboy)
 

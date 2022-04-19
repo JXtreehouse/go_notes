@@ -100,7 +100,12 @@ VS Code的安装比较简单，一直下一步即可。
 ![](./../assets/vscode_plugin.png)
 
 
+# 环境变量
+![](../assets/const.webp)
 
+# 工具和功能
+
+![](../assets/toolsingo.webp)
 # 常见问题
 >  1、本机安装beego和bee工具时，可能出现类似 “running dsymutil failed: signal: abort trap” 错误，系bee工具与高版本Go不兼容问题
 

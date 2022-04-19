@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-04-08 09:47:15
- * @LastEditTime: 2021-04-08 10:12:22
+ * @LastEditTime: 2022-03-08 11:35:00
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /go_notes/docs/go modules.md
@@ -11,9 +11,12 @@ https://blog.golang.org/using-go-modules
 
 https://github.com/golang/go/wiki/Modules
 
+Go Module：https://www.bilibili.com/video/av63052644/
+
 # module介绍
 go module是go新的依赖包管理系统,go module 是go语言从1.11版本之后官方推出的版本管理工具，基于vgo演变而来，是一个新型的包管理工具，在go1.11和go1.12该功能还在试验阶段,从go 1.13开始,go module 成为了go语言默认的依赖管理工具,从go1.14开始已经用于生产环境，并且鼓励所有用户从其他依赖包管理系统迁移到go module。
 
+Go 1.14 Go Modules 终于可以投入生产了。除非你有特定的理由不使用它们，否则使用 Go Modules 。如果你使用，就无需担心 $GOPATH 以及项目放置的位置。存储库中的 go.mod 文件基本假定你的项目托管在 Github 上，但这不是要求。模块路径可以是任何地方，尽管第一个模块路径组件的名称中应该有一个点（当前版本的 Go 不再强制使用该模块，但如果使用稍旧的版本，如果没有 mod 文件构建失败的话 ，不要惊讶）。如果你想知道更多信息，请参阅 [Issues 37554](https://github.com/golang/go/issues/37554) 和 [32819](https://github.com/golang/go/issues/32819) 。
 
 #　go.mod文件
 go.mod文件是在项目的根目录下，是个Go依赖包的集合。包含go.mod文件的目录也被称为模块根,这个go.mod文件定义了Go依赖包的路径，也是项目使用的导入路径，还包括使依赖包能够成功构建的依赖需求。每个依赖包都包括一个路径和使用的特定版本。

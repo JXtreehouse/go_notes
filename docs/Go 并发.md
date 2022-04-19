@@ -9,6 +9,21 @@
 
 
 [常见并发模型]()
+
+
+# 并发模型
+
+## 共享内存
+## CSP并发机制
+> CSP(Communicating sequential processes)
+
+**Actor Model**
+
+**CSP vs Actor
+
+- 和Actor的直接通讯不同，CSP模式则是通过channel进行通讯的，更松耦合一些
+- GO中的channel是有容量限制并且独立处理Groutine,而如Erlang,Actor模式中的mailbox容量是无限的，接收进程也总是被动地处理消息
+## 
 <b>Goroutines 和 Channels</b>
 # Go 并发 (goroutine)
 
@@ -97,6 +112,7 @@ func fib(x int) int {
 main中同时运行了两个函数，而不是按照顺序执行的，当主函数获得返回值时，所有的goroutine会被直接打断，spinner相当于一个等待时间的小动画。但是其实两个单元是可以通信的，继续。
 # 通道（channel）
 
+![](../assets/channel&.png)
 Channel是Go中的一个核心类型，你可以把它看成一个管道，通过它并发核心单元就可以发送或者接收数据进行通讯。
 - go语言中并发可以通过两种途径实现。Goroutines和Channels支持“顺序通信进程”（CSP）。其是一种现代的并发变成模型，在这种编程模型中值会在不同的运行实例（Goroutines）中传递，尽管大多数时候都被限制在单一实例中。
 - 多线程共享内存。
@@ -150,6 +166,24 @@ ch := make(chan int)
 // 17
 // -5 17 12
 // 
+```
+
+下面的代码我们在java中很常见
+```java
+// java中的future机制
+// 当启动一个函数或者执行一个task时候，并不需要马上知道他的结果，当需要知道这个结果时候才去get这个结果(异步返回)
+// 在这个期间可以执行一些其他的逻辑
+// 当get这个结果时候如果结果还没出来，就会阻塞在那里，如果结果已经出来，就能get到，然后得到这个结果以后继续往下执行，这种机制可以大大提升程序的效率。
+
+private static FutureTask<String> service() {
+    FutureTask<String> task = new FutureTask<String>(()-> "Do someting")
+    new Thread(task).start()
+    return task;
+}
+
+FutureTask<string> ret = service();
+    System.out.println("Do someting else");
+    System.out.println(ret.get());
 ```
 
 ## 通道缓冲区
