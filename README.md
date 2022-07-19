@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-22 16:36:14
- * @LastEditTime: 2021-11-11 11:46:13
+ * @LastEditTime: 2022-04-24 18:12:08
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit　https://www.cnblogs.com/xiaoyuanqujing/p/11681169.html
  * @FilePath: /go_notes/README.md
@@ -9,8 +9,29 @@
 # go_notes
 go practise for youziclub
 
+# golang介绍　
+golang和c/c++比起来是一门新的语言，一直想学，网上搜集了一些资料，有些人说很容易上手，确实是这样，和C/C++比起来，少了很多乱七八糟的语法。
+
+golang最近几年才火起来，有一些web框架也比较新，有下面一些框架：
+
+**Beego：开源的高性能 Go 语言 Web 框架。**
+https://github.com/astaxie/beego
+https://github.com/gobuffalo/buffalo
+https://gobuffalo.io
+**Echo：简约的高性能 Go 语言 Web 框架。**
+https://github.com/labstack/echo
+https://echo.labstack.com
+**Gin：Go 语言编写的 Web 框架，以更好的性能实现类似 Martini 框架的 API。**
+https://github.com/gin-gonic/gin
+https://gin-gonic.github.io/gin
+**Iris：全宇宙最快的 Go 语言 Web 框架。完备 MVC 支持，未来尽在掌握。**
+https://github.com/kataras/iris
+https://iris-go.com
 
 
+<b>Revel：Go 语言的高效、全栈 Web 框架 </b>
+https://github.com/revel/revel
+https://revel.github.io
  # Golang 开发环境
 
  # Golang 基础
