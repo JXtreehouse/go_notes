@@ -1,13 +1,13 @@
 <!--
  * @Author: AlexZ33
  * @Date: 2021-04-08 14:26:04
- * @LastEditTime: 2022-07-19 11:20:29
+ * @LastEditTime: 2022-07-19 14:28:11
  * @LastEditors: AlexZ33 775136985@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /go_notes/docs/go map(集合).md
 -->
 
-https://blog.csdn.net/weixin_44706011
+
 
 # Map
 散列表(hash table)是一个拥有键值对元素的无序集合。<b>在这个集合中，键的值是唯一的</b>, 键对应的值可以通过键来获取、更新或移除。无论这个散列表有多大，这些操作基本上是通过常量时间的键比较就可以完成。
@@ -121,6 +121,83 @@ ages["alice"] = 32
 
 ```
 
+# Go map size
+
+map的大小由 len 函数确定。它返回key-value中的对数。
+
+```golang
+package main
+
+import "fmt"
+
+func main() {
+
+    countries := map[string]string{
+        "sk": "Slovakia",
+        "ru": "Russia",
+        "de": "Germany",
+        "no": "Norway",
+    }
+
+    fmt.Printf("There are %d pairs in the map\n", len(countries))
+}
+```
+
+```
+$ go run length.go
+There are 4 pairs in the map
+```
+# Go map loop
+使用 for 和 range 关键字，我们可以遍历map元素。
+
+```golang
+package main
+
+import "fmt"
+
+func main() {
+
+    countries := map[string]string{
+        "sk": "Slovakia",
+        "ru": "Russia",
+        "de": "Germany",
+        "no": "Norway",
+    }
+
+    for country := range countries {
+        fmt.Println(country, "=>", countries[country])
+    }
+
+    for key, value := range countries {
+        fmt.Printf("countries[%s] = %s\n", key, value)
+    }
+}
+```
+在代码示例中，我们以两种方式循环国家map。
+```
+for country := range countries {
+    fmt.Println(country, "=>", countries[country])
+}
+```
+在第一种情况下，我们按对对象循环。
+```golang
+for key, value := range countries {
+    fmt.Printf("countries[%s] = %s\n", key, value)
+}
+```
+在第二种情况下，我们按键和值循环。
+```golang
+$ go run loop.go
+de => Germany
+no => Norway
+sk => Slovakia
+ru => Russia
+countries[ru] = Russia
+countries[de] = Germany
+countries[no] = Norway
+countries[sk] = Slovakia
+```
+
 
 # 面试题
 >1. map不初始化使用会怎么样
@@ -135,3 +212,6 @@ ages["alice"] = 32
 > 
 # Reference
 [Associative array](https://en.wikipedia.org/wiki/Associative_array)
+[golang-maps](https://www.geeksforgeeks.org/golang-maps/)
+
+[golang-map](https://zetcode.com/golang/map/)
