@@ -55,6 +55,24 @@ var f2 F = &S2{}
 
 
 ```
+# 接口即约定
+
+# 接口类型
+
+# 实现接口
+
+# 使用flag.value解析参数
+# 接口值
+# 使用sort.Interface来排序
+# http.Handler接口
+# error接口
+# example: 表达式求值器
+# 类型断言
+# 使用类型断言来识别错误
+# 类型分支
+# example基于标记的XML解析
+
+
 
 
 

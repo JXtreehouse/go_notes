@@ -9,6 +9,62 @@
 
 RPC是远程过程调用的简称，是分布式系统中不同节点间流行的通信方式。在互联网时代，RPC已经和IPC一样成为一个不可或缺的基础构件。因此Go语言的标准库也提供了一个简单的RPC实现，我们将以此为入口学习RPC的各种用法。
 
+# 
+```golang
+
+import "net/rpc"
+// 构造一个HelloService类型
+type HelloService struct {}
+// Hello用于实现打印功能
+// Hello 方法必须满足go语言的RPC规则: 方法只能有两个可序列化的参数, 其中第二个参数是指针类型,并且返回一个error类型, 同时必须是公开的方法
+func (p *HelloSevice) Hello (request string, reply *string) error {
+   *reply = "hello:" + request
+   return nil
+}
+
+// 将HelloService注册为一个RPC服务
+func main () {
+   // 将对象类型中所有满足RPC规则的对象方法注册为PRC函数
+   // 所有注册方法会放在"HelloSevice"服务空间下
+  rpc.RegisterName("HelloService", new(HelloService))
+  
+  // 建立了一个唯一的TCP链接
+  listener, err := net.Listen("tcp", ":1234")
+  if err != nil {
+     log.Fatal("ListenTCP error", err)
+  }
+  conn, err := listener.Accept()
+  if err != nil {
+     log.Fatal("Accept error:", err)
+  }
+  
+  // 通过rpc.ServeConn函数在该TCP链接上为对方提供RPC服务
+  rpc.ServeConn(conn)
+}
+```
+
+客户端请求HelloSevice服务
+```golang
+func main() {
+   // rpc.Dial拨号RPC服务
+   client, err := rpc.Dial("tcp", "localhost:1234")
+   if err !=nil {
+      log.Fatal("dialing:" err)
+   }
+   
+   var reply string
+   // client.Call调用具体的RPC方法
+   // 第一个参数是用点号链接的RPO服务名字和方法名字
+   // 第二个参数、第三参数分别是我们定义的RPC方法的两个参数
+   err = client.Call("HelloService.Hello", "hello", &reply)
+   if err !=nil {
+     log.Fatal(err)
+   }
+   
+   fmt.Println(reply)
+}
+```
+
 # gRPC
 - gRPC是一个高性能、开源、通用的 RPC 框架
 - 基于 HTTP2.0协议标准设计开发
@@ -23,3 +79,4 @@ RPC是远程过程调用的简称，是分布式系统中不同节点间流行�
 - 加速站点之间数据传输速度
 - 解决数据传输不规范问题
 <b>常用概念</b>
+- 
