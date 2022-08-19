@@ -6,7 +6,7 @@
  * @Description: In User Settings Edit
  * @FilePath: /go_notes/base/go_serialize.go
  */
-package base
+package bufferChannel
 
 import (
 	"encoding/json"

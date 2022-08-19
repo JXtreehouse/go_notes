@@ -7,7 +7,7 @@
  * @FilePath: /go_notes/base/go_json_to_struct.go
  */
 
- package main
+ package bufferChannel
 
  import (
 	 "encoding/json"

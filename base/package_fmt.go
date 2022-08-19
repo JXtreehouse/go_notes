@@ -6,20 +6,20 @@
  * @Description: In User Settings Edit
  * @FilePath: /go_notes/base/package_fmt_%v_%T.go
  */
-package base
+package bufferChannel
 
 import (
 	"fmt"
 )
 
 type Power struct {
-	age int
+	age   int
 	hight int
-	name string
+	name  string
 }
 
 func main() {
-	var i Power = Power{age:10, hight:178, name: "NewMan"}
+	var i Power = Power{age: 10, hight: 178, name: "NewMan"}
 
 	fmt.Printf("type:%T\n", i)
 	fmt.Printf("value:%v\n", i)
@@ -30,7 +30,7 @@ func main() {
 	var interf interface{} = i
 	fmt.Printf("%v\n", interf)
 	fmt.Println(interf)
-}// output:
+} // output:
 // type:main.Power
 // // output:
 // type:main.Power
@@ -52,4 +52,4 @@ func main() {
 // ========interface========
 // {10 178 NewMan}
 // {10 178 NewMan}
-// 
+//

@@ -7,7 +7,7 @@
  * @FilePath: /base/regular-expressions.go
  https://juejin.cn/post/6861581078721740807
  */
-package main
+package bufferChannel
 
 import (
 	// "bytes"

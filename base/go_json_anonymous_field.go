@@ -6,13 +6,14 @@
  * @Description: In User Settings Edit
  * @FilePath: /go_notes/base/go_json_anonymous_field.go
  */
-package main
+package bufferChannel
+
 import (
 	"encoding/json"
 	"fmt"
 )
 
-type Point struct {X,Y int}
+type Point struct{ X, Y int }
 type Circle struct {
 	Point
 	Radius int

@@ -7,7 +7,7 @@
  * @FilePath: /go_notes/base/go_func.go
  */
 
- package base
+ package bufferChannel
 
  import (
 	 "fmt"
