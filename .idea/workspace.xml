@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6808e125-ebc3-4fd0-8a8f-c10ce3f35a9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPC框架/RPC入门.md" beforeDir="false" afterPath="$PROJECT_DIR$/RPC框架/RPC入门.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/go interface.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/go interface.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/go map(集合).md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/go map(集合).md" afterDir="false" />
+    <list default="true" id="6808e125-ebc3-4fd0-8a8f-c10ce3f35a9f" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/Web框架/手写框架/TuringGo/turingGo.go" beforeDir="false" afterPath="$PROJECT_DIR$/Web框架/手写框架/TuringGo/turingGo.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
