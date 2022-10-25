@@ -6,7 +6,7 @@
  * @Description: In User Settings Edit
  * @FilePath: /go_notes/base/sync_lock_unlock.go
  */
- package base
+ package main
  
  import (
 	 "time"

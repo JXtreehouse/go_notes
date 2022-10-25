@@ -1,3 +1,3 @@
-module v2
+module base
 
 go 1.17
