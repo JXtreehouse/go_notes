@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e311731-9ef5-4fc4-b2e8-2aa69505a36a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/base/.idea/base.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/Sprint.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/empty_interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/空接口empty interface.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Go 标准库：container list（双向链表）.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/go_atomic.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/go_atomic.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +46,7 @@
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Go 构建.go build empty_interface.go">
     <configuration name="go build base" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
