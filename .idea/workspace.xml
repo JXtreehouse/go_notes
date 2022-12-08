@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e311731-9ef5-4fc4-b2e8-2aa69505a36a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Go 标准库：container list（双向链表）.md" afterDir="false" />
+    <list default="true" id="4e311731-9ef5-4fc4-b2e8-2aa69505a36a" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Go实现压力测试工具.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Go实现压力测试工具.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/golang Context标准库.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/golang Context标准库.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/go实现一致性hash算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/go实现一致性hash算法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/lsm树存储引擎(bitcask、moss、leveldb).md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/lsm树存储引擎(bitcask、moss、leveldb).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/采用Leaf算法结合Go实现双Buffer桶的ID生成器.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/采用Leaf算法结合Go实现双Buffer桶的ID生成器.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
