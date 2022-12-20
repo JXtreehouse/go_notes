@@ -176,8 +176,8 @@
 - 注释描述函数或方法功能、调用方等信息
 
     ```go
-    // NcuhomeDoSomeThing 函数是用来告诉大家家园是干什么的
-    func NcuhomeDoSomeThing(ctx *common.Context) error {
+    // DoSomeThing 函数是用来告诉大家是干什么的
+    func DoSomeThing(ctx *common.Context) error {
         // TODO
     }
    ```
@@ -186,14 +186,14 @@
 - 每个需要导出的常量和变量都必须有注释说明
 - 该注释对常量或变量进行简要介绍，放在常量或者变量定义的前一行
     ```go
-    // NcuhomeMaxPeople 家园最大人数
-    const NcuhomeMaxPeople = "50"
+    // MaxPeople 最大人数
+    const MaxPeople = "50"
 
-    // 家园各个时期的最大人数
+    // 各个时期的最大人数
     const (
-        NcuhomeMaxPeople2018 = "50" // 家园2018年的最大人数
-        NcuhomeMaxPeople2019 = "50" // 家园2019年的最大人数
-        NcuhomeMaxPeople2020 = "50" // 家园2020年的最大人数
+        MaxPeople2018 = "50" // 2018年的最大人数
+        MaxPeople2019 = "50" // 2019年的最大人数
+        MaxPeople2020 = "50" // 2020年的最大人数
     )
 
     // FullName 返回指定用户名的完整名称

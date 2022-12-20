@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e311731-9ef5-4fc4-b2e8-2aa69505a36a" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/base/go_closures.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/gorutine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/sync.WaitGroup.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/golang中的容器并发安全性.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4e311731-9ef5-4fc4-b2e8-2aa69505a36a" name="Changes" comment="Changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
