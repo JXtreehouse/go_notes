@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e311731-9ef5-4fc4-b2e8-2aa69505a36a" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/base/go_closures.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/gorutine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/sync.WaitGroup.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/golang中的容器并发安全性.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Go实现压力测试工具.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Go实现压力测试工具.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/golang Context标准库.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/golang Context标准库.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/go实现一致性hash算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/go实现一致性hash算法.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/lsm树存储引擎(bitcask、moss、leveldb).md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/lsm树存储引擎(bitcask、moss、leveldb).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/采用Leaf算法结合Go实现双Buffer桶的ID生成器.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/采用Leaf算法结合Go实现双Buffer桶的ID生成器.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +53,12 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go 构建.go build empty_interface.go">
-    <configuration name="go build base" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_notes" />
-      <working_directory value="$PROJECT_DIR$/base" />
-      <kind value="PACKAGE" />
-      <package value="base" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/base/go_goroutine_clock.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\personal\go_notes\base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go 构建.go build sync.WaitGroup.go">
     <configuration name="go build empty_interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_notes" />
       <working_directory value="$PROJECT_DIR$" />
@@ -86,8 +83,26 @@
       <filePath value="$PROJECT_DIR$/base/go_sync.one_simple.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build gorutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_notes" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/base/gorutine.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build sync.WaitGroup.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_notes" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/base/sync.WaitGroup.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build sync.WaitGroup.go" />
+        <item itemvalue="Go 构建.go build gorutine.go" />
         <item itemvalue="Go 构建.go build empty_interface.go" />
       </list>
     </recent_temporary>
