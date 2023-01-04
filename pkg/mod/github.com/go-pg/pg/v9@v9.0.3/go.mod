@@ -16,5 +16,5 @@ require (
 	golang.org/x/text v0.3.2 // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15
 	gopkg.in/yaml.v2 v2.2.4 // indirect
-	mellium.im/sasl v0.2.1
+	mellium.im/sasl v0.3.1
 )
