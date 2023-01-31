@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e311731-9ef5-4fc4-b2e8-2aa69505a36a" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/docs/bytes字符串处理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vscode配置golang开发环境.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
