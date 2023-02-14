@@ -5,7 +5,7 @@ require (
 	github.com/anacrolix/envpprof v1.0.1 // indirect
 	github.com/anacrolix/sync v0.0.0-20180808010631-44578de4e778 // indirect
 	github.com/anacrolix/utp v0.0.0-20180219060659-9e0e1d1d0572
-	github.com/apache/thrift v0.12.0
+	github.com/apache/thrift v0.13.0
 	github.com/cenk/backoff v2.2.1+incompatible // indirect
 	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
 	github.com/docker/libkv v0.2.1
