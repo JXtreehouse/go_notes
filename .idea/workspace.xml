@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e311731-9ef5-4fc4-b2e8-2aa69505a36a" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/datastructure/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Go Module构建模式如何对依赖包进行升级和降级.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Go的切片浅拷贝和深拷贝的写法和区别.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/go布隆过滤器.md.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/使用Go实现TLS 服务器和客户端.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/请用Go实现一个简单set.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Go语言开发环境.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Go语言开发环境.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/go实现一致性hash算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/go实现一致性hash算法.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
