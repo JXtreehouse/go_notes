@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e311731-9ef5-4fc4-b2e8-2aa69505a36a" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/docs/bytes字符串处理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/vscode配置golang开发环境.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Go Module构建模式如何对依赖包进行升级和降级.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Go的切片浅拷贝和深拷贝的写法和区别.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/go布隆过滤器.md.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/使用Go实现TLS 服务器和客户端.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/请用Go实现一个简单set.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Go语言开发环境.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Go语言开发环境.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/go实现一致性hash算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/go实现一致性hash算法.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +57,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../goweb-mail" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -55,29 +65,13 @@
       <recent name="D:\personal\go_notes\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build sync.WaitGroup.go">
+  <component name="RunManager">
     <configuration name="go build empty_interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_notes" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/base/empty_interface.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_goroutine_clock.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_notes" />
-      <working_directory value="$PROJECT_DIR$/base" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/base/go_goroutine_clock.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_sync.one_simple.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_notes" />
-      <working_directory value="$PROJECT_DIR$/base" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/base/go_sync.one_simple.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build gorutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -88,6 +82,23 @@
       <filePath value="$PROJECT_DIR$/base/gorutine.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build list.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_notes" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/datastructure/list.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build list.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_notes" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/DataStructures/list.go" />
+      <output_directory value="$PROJECT_DIR$/DataStructures" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build sync.WaitGroup.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_notes" />
       <working_directory value="$PROJECT_DIR$" />
@@ -96,13 +107,6 @@
       <filePath value="$PROJECT_DIR$/base/sync.WaitGroup.go" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go 构建.go build sync.WaitGroup.go" />
-        <item itemvalue="Go 构建.go build gorutine.go" />
-        <item itemvalue="Go 构建.go build empty_interface.go" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -134,5 +138,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

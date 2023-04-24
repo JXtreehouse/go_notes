@@ -34,6 +34,12 @@ https://github.com/revel/revel
 https://revel.github.io
  # Golang 开发环境
 
+# 常用书籍
+- 《Go语言圣经》：https://books.studygolang.com/gopl-zh/
+- 《Go高级编程》：https://github.com/chai2010/advanced-go-programming-book
+- Go并发编程实战
+- 
+
  # Golang 基础
 - Hello World
 - 变量
